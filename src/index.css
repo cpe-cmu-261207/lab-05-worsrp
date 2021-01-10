@@ -11,3 +11,85 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+article {
+  float: left;
+  padding: 20px;
+  width: 40%;
+  text-align: left;
+ }
+ /* Clear floats after the columns */
+ section:after {
+  content: "";
+  display: table;
+  clear: both;
+ }       
+ nav {
+  float: left;
+  width: 12%;
+  padding: 20px;
+  text-align: left;
+ }
+
+ .centre{
+  margin: auto;
+  width: 50%;
+  text-align: center;
+ }
+
+ .tail {
+  background: rgba(255, 228, 78, 0.863);
+  border: solid 2px;
+  border-color:  white;
+  text-align: center;
+  border-radius: 40%;
+  transition-duration: 0.4s;
+ }
+
+
+.tail:hover {
+  background-color: rgba(255, 228, 78, 0.863);
+  color: white;
+}
+
+ .result{
+  background: rgba(255, 228, 78, 0.863);
+  border-radius: 25px;
+  padding: 20px;
+  margin: 5px 0px;
+ }
+
+ .result2{
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  background: rgba(255, 228, 78, 0.863);
+  border-radius: 25px;
+ }
+ .button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid rgba(255, 228, 78, 0.863);
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  padding: 8px 10px;
+} 
+
+.button1:hover {
+  background-color: rgba(255, 228, 78, 0.863);
+  color: white;
+}
+
+input[type=text] {
+  margin: 20px;
+  border-radius: 4px;
+  background-color: white;
+  border-color: rgba(255, 228, 78, 0.863);
+  padding: 8px 10px;
+}
+select {
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(255, 228, 78, 0.863);
+  margin: 5px;
+  padding: 8px 10px;
+}
